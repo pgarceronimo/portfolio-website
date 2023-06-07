@@ -1,0 +1,242 @@
+body{
+    font-family: "Arial",sans-serif;
+}
+
+/* button for card */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #000000;
+}
+.servicesText:hover {
+    border: 5px double #000000;
+}
+.link {
+    width: 140px;
+    height: 40px;
+    font-size: 1.1em;
+    cursor: pointer;
+    background-color: #171717;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: all .4s;
+   }
+   
+   .link:hover {
+    border-radius: 5px;
+    transform: translateY(-10px);
+    box-shadow: 0 7px 0 -2px #B9B9B9,
+     0 15px 0 -4px #00AAA9,
+     0 16px 10px -3px #28161C;
+   }
+   
+   .link:active {
+    transition: all 0.2s;
+    transform: translateY(-5px);
+    box-shadow: 0 2px 0 -2px #B9B9B9,
+     0 8px 0 -4px #00AAA9,
+     0 12px 10px -3px #28161C;
+   }
+
+/* icons */
+
+   .diploma{
+    height: 90px;
+    width: 90px;
+   }
+   .hat{
+    height: 90px;
+    width: 90px;
+   }
+   .work{
+    height: 70px;
+    width: 70px;
+   }
+   .shop{
+    height: 70px;
+    width: 70px;
+   }
+
+/* my picture  */
+
+   .me
+   {
+    border-radius: 5%;
+   }
+/* Resume Box
+---------------------*/
+.resume-box {
+  background: #ffffff;
+  box-shadow: 0 0 1.25rem rgba(31, 45, 61, 0.08);
+  border-radius: 10px;
+}
+.resume-box ul {
+  margin: 0;
+  padding: 30px 20px;
+  list-style: none;
+}
+.resume-box li {
+  position: relative;
+  padding: 0 20px 0 60px;
+  margin: 0 0 30px;
+}
+.resume-box li:last-child {
+  margin-bottom: 0;
+}
+.resume-box li:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  border-left: 1px dashed #000000;
+  bottom: 0;
+}
+.resume-box .time {
+  background: #484b78;
+  color: #ffffff;
+  font-size: 10px;
+  padding: 2px 10px;
+  display: inline-block;
+  margin-bottom: 12px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+.resume-box h5 {
+  font-weight: 700;
+  color: #20247b;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.resume-box p {
+  margin: 0;
+}
+
+.resume-box li:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    border-left: 1px dashed #fc5356;
+    bottom: 0;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+/* skills */
+
+.skills-container{
+  row-gap: 3.5 rem;
+}
+
+.skills-info,
+.skills-data,
+.skills-pic{
+  display: grid;
+}
+
+.skills-info{
+  grid-template-columns: repeat(3,1fr);
+  gap: 2.5rem 2rem;
+}
+
+.skills-data{
+  justify-content: center;
+  text-align: center;
+}
+
+.skills-pic{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 4rem;
+  place-items: center;
+  margin-bottom: 1rem;
+}
+
+.skills-pic img{
+  width: 55px;
+}
+
+.skills-name{
+  font-size: 25px;
+  margin-bottom: .50rem;
+}
+
+.skills-subtitle{
+  font-size: 16px;
+  color: var(--text-color-light);
+}
+/* footer */
+.footer-section {
+background: black;
+position: relative;
+}
+.footer-cta {
+border-bottom: 2px solid #ffffff;
+}
+.single-cta i {
+color: #fffdfc;
+font-size: 40px;
+float: left;
+margin-top: auto;
+}
+.cta-text {
+padding-left: 15px;
+display: inline-block;
+}
+.cta-text h4 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 2px;
+}
+.cta-text span {
+color: #999595;
+font-size: 15px;
+}
+.copyright-area{
+background: #000000;
+padding: 25px 0;
+}
+.copyright-text p {
+margin: 0;
+font-size: 14px;
+color: #999595;
+}
+.copyright-text p a{
+color: #ff5e14;
+}
+/* button */
+.btn-linkedin{
+  background: #0E76A8;
+  border-radius: 0;
+  color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #084461;
+}
+
+.btn-linkedin:link, .btn-linkedin:visited{
+  color: #fff;
+}
+.btn-linkedin:active, .btn-linkedin:hover{
+  background: #084461;
+  color: #fff;
+}
+
